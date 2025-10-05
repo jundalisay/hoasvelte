@@ -70,7 +70,8 @@
 			</div>
 			{#if post && post.coverImage}
 				<div class="cover-image">
-					<Image src={post.coverImage} alt={post.title} />
+					<img src={post.coverImage} alt={post.title} />
+					<!-- <Image src={post.coverImage} alt={post.title} /> -->
 				</div>
 			{/if}
 			<div class="content">
