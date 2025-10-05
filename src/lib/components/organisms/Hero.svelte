@@ -6,22 +6,38 @@
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
-	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+	<h1 class="hello">Cải thiện tinh thần nang cao sức khỏe</h1>
+
+	<p class="pb-6">
+		<span class=" pb-6">Mới Lịch trình cho năm 2025</span>
+		<!-- <span class="right"></span> -->
 	</p>
-	<div class="ctas">
+
+<br>
+
+	<div class="py-6 my-6">
 		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
-			</Button>
+			<iframe class="py-6 my-6" width="409" height="230" src="https://www.youtube.com/embed/pydpm4w9yvk" title="2025 Summer Camp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			
 		</Sparkles>
+</div>
+
+	<div class="ctas">
+		
+
+
+
+
+		<div>
 		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
 			<FeaturesIcon slot="icon" />
 			Components
 		</Button>
+		<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
+				<GitHubIcon slot="icon" />
+				Source Code
+			</Button>
+		</div>
 	</div>
 </section>
 

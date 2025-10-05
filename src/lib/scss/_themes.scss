@@ -1,9 +1,9 @@
 @import '$lib/scss/_mixins.scss';
 
 @mixin base-theme {
-	@include define-color('primary', #6E29E7);
-	@include define-color('primary-shade', #b28cf2);	
-	@include define-color('primary-tint', #f9f6fe);
+	@include define-color('primary', #e06500);
+	@include define-color('primary-shade', #ffbc4f);	
+	@include define-color('primary-tint', #fff9ed);
 
 	@include define-color('secondary', #ff571a);
 	@include define-color('secondary-shade', #ffa280);
@@ -36,8 +36,8 @@
 	@include define-color('code-text', #ffffff);
 	@include define-color('code-inline-background', #e3e3e3);
 
-	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
-	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
+	--color--waves-start: rgba(224, 101, 0, 0.8);
+	--color--waves-end: rgba(255, 140, 66, 0.6);
 
 	--card-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
 	--card-shadow-hover: 0px 4px 10px 8px rgb(0 0 0 / 10%);

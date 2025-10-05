@@ -1,14 +1,40 @@
 ---
-title: How Blog Posts Work
-slug: blog-posts
-coverImage: /images/posts/blog-posts.jpg
+title: Kaoshikii – Vũ Điệu Của Sức Mạnh Và Tâm Linh 🧘🎶
+slug: kaoshikii
+coverImage: /images/kaoshikii.jpg
 date: 2023-04-22T21:55:15.361Z
-excerpt: How to manage existing blog posts and create new ones
+excerpt: 
 tags:
-  - Documentation
+  - Kaoshikii
 ---
 
-<script>
+
+
+Ngày 6/9/1978, Ngài Shrii Shrii Anandamurti – người sáng lập Ananda Marga, đã khai sinh ra Kaoshikii – đây không chỉ là một điệu nhảy nghệ thuật mà còn được xem như một phương pháp thiền định mang lại nhiều lợi ích kỳ diệu. Không chỉ giúp phát triển sức bền thể chất, mà còn nuôi dưỡng sức mạnh tinh thần, mở rộng tâm thức và kết nối với Vũ trụ.
+
+## 🎶Đặc điểm chính
+
+- Người tập đứng thẳng, hai tay giơ cao quá đầu, hai bàn tay chắp vào nhau.
+- Theo nhịp nhạc hoặc tiếng trống, cơ thể lắc theo bốn hướng: phải-trái-trước-sau, tạo thành một vòng tròn nhịp nhàng.
+- Mỗi chuyển động đều mang ý nghĩa triết lý: mở rộng tâm trí, khát vọng tiến bộ, hướng về cái đẹp và chân lý.
+- Thường đi kèm với câu thần chú "Baba Nam Kevalam" (Nghĩa: “Tình yêu là tất cả những gì tồn tại”).
+
+## 🎶 Lợi ích thể chất
+
+- Kaoshikii được ghi nhận có khả năng hỗ trợ cải thiện 22 chứng bệnh, đặc biệt tốt cho phụ nữ.
+- Giúp cơ thể trở nên khỏe mạnh, trẻ trung, linh hoạt và dẻo dai.
+- Hỗ trợ tuần hoàn, tăng sức mạnh cột sống và cải thiện toàn diện sức khỏe
+
+## 🎶Lợi ích tinh thần và tâm linh
+
+Tên gọi Kaoshikii bắt nguồn từ từ Kosa trong tiếng Phạn, có nghĩa là “tầng lớp của trí”. Đây là nơi bản ngã cá nhân ẩn sâu nhất, và qua từng động tác uyển chuyển, Kaoshikii biểu lộ sự nở rộ của bản ngã sâu thẳm này.
+
+- Giúp giải phóng tâm trí, nuôi dưỡng sự an lạc nội tâm.
+- Kết nối ý thức cá nhân với ý thức vũ trụ, trở thành một hành trình tâm linh đích thực.
+- Là sự kết hợp độc đáo giữa thiền định và chuyển động, giúp con người quân bình thân-tâm-trí.
+Mỗi sáng, Yoga Hoa Sen tổ chức 10 phút Kaoshikii qua Zoom. Chúng ta cùng nhau khởi đầu ngày mới với vũ điệu này, để năng lượng dâng trào, tình yêu thương bừng sáng và kết nối lan tỏa đến tất cả mọi người.
+
+<!-- <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
@@ -65,3 +91,4 @@ I highly recommend the [Front Matter VS Code extension](https://frontmatter.code
 ## RSS
 
 This template automatically generates a RSS feed of your blog posts. It is generated in the `src/routes/rss.xml/+server.ts` file, and it is available at the `/rss.xml` URL.
+ -->

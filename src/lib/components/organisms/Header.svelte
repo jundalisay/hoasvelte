@@ -8,16 +8,22 @@
 
 <header class:has-background={showBackground}>
 	<nav class="container">
+
 		<a class="logo" href="/" aria-label="Site logo">
-			<Logo />
+			<img src="/hoasen.png"  width="100px">			
+			<!-- <Logo /> -->
 		</a>
 		<div class="links">
+			<a href="/blog">News</a>						
 			<a href="/blog">Blog</a>
+			<a href="/blog">Contact</a>			
+			<a href="/blog">About</a>
 			<RssLink />
 			<ThemeToggle />
 		</div>
 	</nav>
 </header>
+
 
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
