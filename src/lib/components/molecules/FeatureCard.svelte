@@ -16,6 +16,7 @@
 		<img src={image} alt="Picture describing the {name} feature" />
 	</div>
 	<div class="content" slot="content">
+		<br>
 		<div class="title">
 			<span>{name}</span>
 		</div>
