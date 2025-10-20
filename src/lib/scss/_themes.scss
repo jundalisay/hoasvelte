@@ -45,9 +45,9 @@
 }
 
 @mixin dark-theme {
-	@include define-color('primary', #9f67ff);
-	@include define-color('primary-shade', #4612A1);	
-	@include define-color('primary-tint', #231934);
+	@include define-color('primary', #6aa84f);
+	@include define-color('primary-shade', #38761d);	
+	@include define-color('primary-tint', #274e13);
 
 	@include define-color('secondary', #ff723f);
 	@include define-color('secondary-shade', #AB3307);
