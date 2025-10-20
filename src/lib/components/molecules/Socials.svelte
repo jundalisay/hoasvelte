@@ -3,12 +3,12 @@
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import EmailIcon from '$lib/icons/socials/email.svelte';
-	import RssIcon from '$lib/icons/rss.svelte';
-	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
+	// import RssIcon from '$lib/icons/rss.svelte';
+	// import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
 </script>
 
 <div class="socials">
-	<a
+<!-- 	<a
 		href="#"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -31,9 +31,9 @@
 		title="See my GitHub profile"
 	>
 		<GitHubIcon />
-	</a>
+	</a> -->
 	<a
-		href="#"
+		href="https://www.linkedin.com/company/pantrypoints"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
@@ -41,7 +41,7 @@
 		<LinkedInIcon />
 	</a>
 	<a
-		href="#"
+		href="mailto:ChauNguyenLinh@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"

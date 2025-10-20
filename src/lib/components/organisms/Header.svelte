@@ -13,12 +13,11 @@
 			<img src="/hoasen.png"  width="100px">			
 			<!-- <Logo /> -->
 		</a>
-		<div class="links">
-			<a href="/blog">News</a>						
-			<a href="/blog">Blog</a>
-			<a href="/blog">Contact</a>			
-			<a href="/blog">About</a>
-			<RssLink />
+		<div class="links">						
+			<a href="/blog">Tin tức và Blog</a>
+<!-- 			<a href="/blog">Contact</a>			
+			<a href="/blog">About</a> -->
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</nav>

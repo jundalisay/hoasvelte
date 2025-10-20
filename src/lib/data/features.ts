@@ -2,42 +2,55 @@ import type { Feature } from "$lib/utils/types";
 
 export default [ 
   {
-    name: 'Markdown Support',
+    name: 'Lớp học Yoga',
     description:
-      'Blog posts are written in Markdown, a simple and nearly-universal format. This means you can bring over your posts from other platforms, and easily export to another if you want to.',
-    image: 'images/features/markdown.jpg',
-    tags: [{ label: 'Powered by MDsveX' }]
+      'Lớp Yoga giúp cân bằng thân tâm, tăng cường sự dẻo dai và giảm căng thẳng. Hãy tham gia để khám phá hơi thở và tìm thấy bình yên nội tại.',
+    image: 'images/class.jpg',
+    tags: [{ label: 'Local and Foreign Teachers' }]
   }, 
   {
-    name: 'Themeable',
+    name: 'Trại dưỡng sinh Yoga (Yoga Retreat)',
     description:
-      'You can easily theme the entire website by changing just a few colors in the _themes.scss file.',
-    image: 'images/features/themeable.jpg',
+      'Trại dưỡng sinh Yoga mang đến thời gian tĩnh tâm sâu sắc, thực hành thiền định, và kết nối với thiên nhiên để phục hồi năng lượng toàn diện.',
+    image: 'images/yoga.jpg',
     tags: [{ label: 'Primary Color' }, { label: 'Secondary Color', color: 'secondary' }]
   }, 
   {
-    name: 'Extensible',
+    name: 'Y học Thay thế',
     description:
-      'Components are built to be reused, and you can build new pages and layouts without much CSS knowledge. You can see all components in Histoire by running "npm run story:dev"',
-    image: 'images/features/extensible.jpg',
+      'Y học Thay thế tập trung vào các phương pháp chữa lành tự nhiên, cân bằng năng lượng cơ thể, hỗ trợ sức khỏe và phòng ngừa bệnh tật hiệu quả.',
+    image: 'images/veg.jpg',
   }, 
   {
-    name: 'Well Optimized',
+    name: 'Lớp dạy nấu ăn chay',
     description:
-      'Images are automatically optimized and lazy loaded, to ensure the website loads as fast as possible regardless of connection speed.',
-    image: 'images/features/optimized.jpg',
-    tags: [{ label: 'Powered by Image Transmutation' }]
+      'Lớp dạy nấu ăn chay hướng dẫn các công thức đơn giản, dinh dưỡng, và sáng tạo, giúp bạn chế biến bữa ăn lành mạnh, ngon miệng cho gia đình.',
+    image: 'images/veg.jpg',
+    tags: [{ label: 'Food as Medicine' }]
   }, 
   {
-    name: 'Light and Dark Modes',
+    name: 'Đơn vị Chủ đạo Ananda Marga (Master Unit of Ananda Marga)',
     description:
-      'This template was built with dark mode in mind. It can swap between themes automatically (based on system settings) or manually. Both themes can be tweaked in the _themes.scss file.',
-    image: 'images/features/light-dark.jpg',
+      'Đơn vị Chủ đạo của Ananda Marga là nơi thực hành lối sống cân bằng, phát triển nông nghiệp sinh thái và phục vụ cộng đồng địa phương.',
+    image: 'images/yoga.jpg',
   },
   {
-    name: 'Open Source',
+    name: 'Cứu trợ Thảm họa AMURT (AMURT Disaster Relief)',
     description:
-      'All code is open source, which means you can copy and modify it to your heart\'s content. All I ask is that you make your code open too so that knowledge can be passed on.',
-    image: 'images/features/open-source.jpg'
+      'AMURT cung cấp cứu trợ nhân đạo khẩn cấp, hỗ trợ lương thực, y tế, và tái thiết cộng đồng sau thiên tai, mang lại hy vọng cho người dân.',
+    image: 'images/amurt.jpg'
   },
+  {
+    name: 'Lý thuyết Kinh tế PROUT (PROUT Economic Theory)',
+    description:
+      'Lý thuyết Kinh tế PROUT đề xuất mô hình phân phối tài sản công bằng, tối đa hóa phúc lợi xã hội và đảm bảo sinh kế cho mọi người.',
+    image: 'images/yoga.jpg'
+  },  
+  {
+    name: 'Chủ nghĩa Tân Nhân văn (Neo-Humanism',
+    description:
+      'Chủ nghĩa Tân Nhân văn là triết lý mở rộng tình yêu thương và lòng trắc ẩn không chỉ với con người mà còn với muôn loài và toàn vũ trụ.',
+    image: 'images/amurt.jpg'
+  },  
 ] as Feature[];
+

@@ -1,5 +1,6 @@
 <script>
 	import FeaturesIcon from '$lib/icons/features.svelte';
+	import MastodonIcon from '$lib/icons/socials/mastodon.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import Button from '$lib/components/atoms/Button.svelte';
 	import Sparkles from '../atoms/Sparkles.svelte';
@@ -24,18 +25,15 @@
 
 	<div class="ctas">
 		
-
-
-
-
 		<div>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
+		<Button color="primary" href="https://www.youtube.com/@anandamargasaigon1663/">
+			<GitHubIcon slot="icon" />
+			Youtube
 		</Button>
-		<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
+		<br>
+		<Button href="https://www.facebook.com/lotusyogavn/">
+				<MastodonIcon slot="icon" />
+				Facebook
 			</Button>
 		</div>
 	</div>

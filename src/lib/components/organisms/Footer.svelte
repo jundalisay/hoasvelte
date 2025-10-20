@@ -11,21 +11,21 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
+			This was built by <a
+				href="http://pantrypoints.com/"
 				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
+				rel="noopener noreferrer">Pantrypoints Technologies</a
 			>.
 		</div>
-		<div class="credits">
+<!-- 		<div class="credits">
 			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
 				>SvelteKit</a
 			>. Icons by
 			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
-		</div>
+		</div> -->
 		<div class="socials">
 			<Socials />
-			<RssLink />
+			<!-- <RssLink /> -->
 			<ThemeToggle />
 		</div>
 	</div>

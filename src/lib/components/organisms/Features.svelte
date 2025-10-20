@@ -8,9 +8,10 @@
 
 <ContentSection
 	id="features"
-	title="Features"
-	description="Here are some of the features of this template"
+	title="Dịch vụ của chúng tôi"
+	description="Chúng tôi chuyên về sức khỏe và sắc đẹp"
 >
+
 	<div class="features-container">
 		<div class="three-group-grid">
 			{#each features as feature}
