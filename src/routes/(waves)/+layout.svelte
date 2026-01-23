@@ -22,6 +22,17 @@
 	<meta name="twitter:image" content={image} />
 
 	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-B9MMXRN4MM"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-B9MMXRN4MM');
+	</script>
+
 </svelte:head>
 
 <Waves />
