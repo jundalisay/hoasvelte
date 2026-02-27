@@ -5,8 +5,7 @@
 		xmlns:xlink="http://www.w3.org/1999/xlink"
 		viewBox="0 24 150 28"
 		preserveAspectRatio="none"
-		shape-rendering="auto"
-	>
+		shape-rendering="auto">
 		<defs>
 			<path
 				id="gentle-wave"
@@ -90,4 +89,13 @@
 			transform: translate3d(85px, 0, 0);
 		}
 	}
+
+:root {
+  --color--waves-start: #4CAF50;  /* Green start */
+  --color--waves-end: #2E7D32;     /* Darker green end */
+  --color--page-background: #f0f0f0; /* Keep as is or adjust */
+  --color--page-background-rgb: 240, 240, 240; /* RGB values of your background */
+}
+
+	
 </style>

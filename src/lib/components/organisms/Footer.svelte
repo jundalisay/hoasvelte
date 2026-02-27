@@ -13,7 +13,8 @@
 	<div class="content">
 
 		<div class="copyright">
-			Số 34 Phan Liêm, Phường Đa Kao, Quận 1, Tp. Hồ Chí Minh
+			<!-- Số 34 Phan Liêm, Phường Đa Kao, Quận 1, Tp. Hồ Chí Minh -->
+			34 Phan Liêm, Phường Tân Định, Thành phố Hồ Chí Minh
 			<br>
 			<!-- <EmailIcon slot="icon" /> -->
 			 yogahoasen.vn@gmail.com | 091 887 3316

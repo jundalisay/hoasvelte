@@ -47,7 +47,7 @@
             <!-- Địa chỉ -->
             <div class="address-box">
                 <span class="label" style="display: block; margin-bottom: 5px;">Địa chỉ</span>
-                <span class="value" style="color: #333; font-weight: 400;">Trung tâm Yoga Hoa Sen – 34 Phan Liêm, Quận 1</span>
+                <span class="value" style="color: #333; font-weight: 400;">Trung tâm Yoga Hoa Sen – 34 Phan Liêm, Phường Tân Định, Thành phố Hồ Chí Minh</span>
             </div>
 
             <!-- Liên hệ -->
