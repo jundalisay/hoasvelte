@@ -3,8 +3,28 @@
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 
-	export let showBackground = false;
+  import { page } from '$app/stores';
+  import Music from '$lib/components/Music.svelte';
+
+  import { browser } from '$app/environment';
+  import { onMount } from 'svelte';
+  
+  let hasUserInteracted = false;
+  
+  onMount(() => {
+    if (browser) {
+      // Detect if user has interacted with the page
+      const handleInteraction = () => {
+        hasUserInteracted = true;
+        document.removeEventListener('click', handleInteraction);
+      };
+      document.addEventListener('click', handleInteraction);
+    }
+  });
+
+  export let showBackground = false;
 </script>
+
 
 <header class:has-background={showBackground}>
 	<nav class="container">
@@ -19,13 +39,62 @@
 			<a href="/blog">About</a> -->
 			<!-- <RssLink /> -->
 			<ThemeToggle />
+			<Music autoplay={true} />
 		</div>
 	</nav>
 </header>
 
 
+
+<main>
+  <slot />
+</main>
+
+
+
 <style lang="scss">
 	@import '$lib/scss/breakpoints.scss';
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Dark mode support - matches your app.html */
+  [data-theme="dark"] .navbar {
+    background: #1a1a1a;
+    color: white;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .navbar:not([data-theme="light"]) {
+      background: #1a1a1a;
+      color: white;
+    }
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.75rem 1rem;
+    }
+  }
+
+
 
 	header {
 		position: relative;

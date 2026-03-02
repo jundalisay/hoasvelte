@@ -1,6 +1,6 @@
 ---
 slug: fasting
-title: Fasting
+title: Vậy phương pháp nhịn ăn theo tuần trăng Ekadashi là gì?
 date: 2023-04-22T21:55:21.800Z
 excerpt: 
 coverImage: /images/moon.jpg
@@ -9,7 +9,7 @@ tags:
 ---
 
 
-☀️Chào các bạn, tuần vừa qua mọi người thế nào rồi?
+☀️ Chào các bạn, tuần vừa qua mọi người thế nào rồi?
 
 Để bắt đầu tuần mới, Yoga Hoa Sen muốn chia sẻ với bạn một phương pháp nhịn ăn đặc biệt mang tên Ekadashi, xuất phát từ Ấn Độ.
 Vậy phương pháp nhịn ăn theo tuần trăng Ekadashi là gì?
